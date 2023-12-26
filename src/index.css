@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-image: url('./background_image.jpg');
+  background-size: cover;
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+

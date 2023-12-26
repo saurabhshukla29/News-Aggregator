@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1366px) {
+  .newslist{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-top: 60px;
+    columns: 3;
+}
+.card {
+    height:400px;
+    width:400px;
+    transform-style: preserve-3d;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+      25deg,
+      rgb(219, 210, 152) 0%,
+        rgb(188, 133, 65)
+    );
+    transition: all 0.1s ease;
+    opacity: 0.9;
+  }
+  .card>a{
+    text-decoration:none;
+    color: white;
+    padding-top: 50px;
+  }
+  .card>a:hover{
+    color: rgb(4, 241, 245);
+  }
+}
