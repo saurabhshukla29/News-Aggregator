@@ -5,10 +5,11 @@
 }
 body {
   margin: 0;
-  background-image: url('./background_image.jpg');
+  background-image: url("./pexels-alex-andrews-271121-3805983.jpg");
   background-size: cover;
   position: absolute;
   font-family: 'Ubuntu', sans-serif;
+  opacity: 0.9;
 }
 
 

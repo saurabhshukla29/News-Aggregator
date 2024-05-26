@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1366px) {
   .newslist{
+    margin-top: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -13,19 +14,17 @@
     width:400px;
     transform-style: preserve-3d;
     position: relative;
+    border: 4px solid hsla(0, 1%, 31%, 0.913);
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 5px 5px 5px hsla(0, 1%, 25%, 0.797);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(
-      25deg,
-      rgb(219, 210, 152) 0%,
-        rgb(188, 133, 65)
-    );
+    background-color: hsla(0, 5%, 76%, 0.34);
     transition: all 0.1s ease;
     opacity: 0.9;
+    cursor: pointer;
   }
   .card>a{
     text-decoration:none;

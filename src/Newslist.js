@@ -20,7 +20,7 @@ const Newslist = () => {
     const { clientX, clientY } = event;
     const x = clientX - card.offsetLeft - width / 2;
     const y = clientY - card.offsetTop - height / 2;
-    var mult = 2;
+    var mult = 3;
     setXRotation((y / height) * mult);
     setYRotation((x / width) * mult);
   }
@@ -67,9 +67,11 @@ const Newslist = () => {
       }}
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
-              <h2 ref={titleRef}>{title}</h2>
-              <p ref={descRef}>
+      onMouseLeave={handleMouseLeave}
+    
+      >
+              <h2 ref={titleRef} style={{color:'white'}}>{title}</h2>
+              <p ref={descRef} style={{color:'white'}}>
               Author:{author} | {num_comments}comments
               </p>
               <a href={url} ref={purchaseRef} >Read more</a>
